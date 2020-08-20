@@ -1,0 +1,15 @@
+{
+  "name": " Assignment 1: Make a Simple Map",
+  "endpoint": "cal/eps88/fa20/hw01",
+  "src": [
+    "W1_assignment_birthquake_map.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}

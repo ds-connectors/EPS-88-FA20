@@ -1,0 +1,15 @@
+{
+  "name": "Out-of-Class 2: Age of the Seafloor",
+  "endpoint": "cal/eps88/fa20/hw02",
+  "src": [
+    "W2_assignment_seafloor_age.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}

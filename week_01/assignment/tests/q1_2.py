@@ -6,7 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> -90.0 <= birthquake_latitude <= 90.0 & -180.0 <= birthquake_longitude <= 180.0
+          >>> -90.0 <= birthquake_latitude <= 90.0
+          True
+          >>> -180.0 <= birthquake_longitude <= 180.0
           True
           """,
           'hidden': False,

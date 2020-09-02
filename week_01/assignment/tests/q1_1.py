@@ -6,7 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 37.0 <= Berkeley_latitude <= 38.0 & -123.0 <= Berkeley_longitude <= -122.0
+          >>> 37.0 <= Berkeley_latitude <= 38.0
+          True
+          >>> -123.0 <= Berkeley_longitude <= -122.0
           True
           """,
           'hidden': False,

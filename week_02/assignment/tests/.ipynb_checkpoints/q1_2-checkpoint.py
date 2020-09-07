@@ -1,14 +1,12 @@
 test = {
-  'name': 'Question 1_3',
-  'points': 1,
+  'name': 'Question 1_2',
+  'points': 2,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> topo_max==6228.8125 
-          True
-          >>> topo_min ==-9026.625
+          >>> seafloor_age_data.describe().loc['max']['age_Ma'] == 280.0
           True
           """,
           'hidden': False,

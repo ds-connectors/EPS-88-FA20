@@ -6,9 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> topo_max==6228.8125 
-          True
-          >>> topo_min ==-9026.625
+          >>> age_grid.shape == (901,1801)
           True
           """,
           'hidden': False,

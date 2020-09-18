@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> earthquakes_mag5.describe().loc['count']['latitude'] == 16259.0
+          >>> 16250.0 < earthquakes_mag5.describe().loc['count']['latitude'] < 16275.0
           True
           >>> earthquakes_mag6.describe().loc['count']['latitude'] == 1299.0
           True

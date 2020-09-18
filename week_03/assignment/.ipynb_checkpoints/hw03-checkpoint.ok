@@ -1,0 +1,15 @@
+{
+  "name": "Out-of-Class 3: Earthquake Deformation and Locating",
+  "endpoint": "cal/eps88/fa20/hw03",
+  "src": [
+    "W3_assignment_Earthquakes.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}

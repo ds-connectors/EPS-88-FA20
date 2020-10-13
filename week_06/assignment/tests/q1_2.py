@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> percentile_current_zone == 0.9433962264150944
+          >>> 0.9433 < percentile_current_zone < 0.9438
           True
           """,
           'hidden': False,
